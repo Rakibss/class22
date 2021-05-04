@@ -1,0 +1,46 @@
+.header{}
+.header-logo{}
+.header-logo a{
+    text-decoration: none;
+}
+.header-logo a h2 {
+	font-size: 25px;
+	line-height: 40px;
+	margin-bottom: 0;
+}
+
+.header-menu ul {
+	margin-bottom: 0;
+}
+.header-menu ul li {
+	display: inline-block;
+	margin-left: -4px;
+	line-height: 22px;
+}
+.header-menu ul li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 15px 20px;
+}
+/* banner-section */
+.banner-section {
+	background: url(./photo-1498798821241-1f327af804fe.jpg) center center no-repeat;
+	background-size: cover;
+	padding: 300px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.493);
+    z-index: -1;
+}
+.banner-section h2{
+    color: #fff;
+    font-weight: bold;
+}
